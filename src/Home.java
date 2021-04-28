@@ -1,4 +1,5 @@
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /*
@@ -61,13 +62,13 @@ public class Home extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/home.png"))); // NOI18N
         jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 910, 560));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-40, -20, 1370, 800));
 
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Donor.png"))); // NOI18N
         jMenu1.setText("Donor");
         jMenu1.add(jSeparator1);
 
-        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem2.setFont(new java.awt.Font("Ubuntu", 0, 15)); // NOI18N
         jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Update details.png"))); // NOI18N
         jMenuItem2.setText("Update Details");
@@ -78,7 +79,7 @@ public class Home extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem2);
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Add new.png"))); // NOI18N
         jMenuItem1.setText("Add New");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +90,7 @@ public class Home extends javax.swing.JFrame {
         jMenu1.add(jMenuItem1);
         jMenu1.add(jSeparator2);
 
-        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_W, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_W, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Details.png"))); // NOI18N
         jMenuItem3.setText("  All Donor Details");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
@@ -105,7 +106,7 @@ public class Home extends javax.swing.JFrame {
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/search user.png"))); // NOI18N
         jMenu2.setText("Search Blood Donor");
 
-        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Location.png"))); // NOI18N
         jMenuItem4.setText("Location");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -116,7 +117,7 @@ public class Home extends javax.swing.JFrame {
         jMenu2.add(jMenuItem4);
         jMenu2.add(jSeparator3);
 
-        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Blood group.png"))); // NOI18N
         jMenuItem5.setText("Blood Group");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +143,7 @@ public class Home extends javax.swing.JFrame {
         jMenu3.add(jMenuItem6);
         jMenu3.add(jSeparator4);
 
-        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_MASK));
+        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItem7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dec.png"))); // NOI18N
         jMenuItem7.setText("Decrease");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
@@ -153,7 +154,7 @@ public class Home extends javax.swing.JFrame {
         jMenu3.add(jMenuItem7);
         jMenu3.add(jSeparator5);
 
-        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.SHIFT_MASK));
+        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Q, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItem8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Details.png"))); // NOI18N
         jMenuItem8.setText("Details");
         jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
@@ -168,7 +169,7 @@ public class Home extends javax.swing.JFrame {
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete donor.png"))); // NOI18N
         jMenu4.setText("Delete Donor");
 
-        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.ALT_MASK));
+        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.ALT_DOWN_MASK));
         jMenuItem9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
         jMenuItem9.setText("Delete Donor");
         jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
@@ -194,7 +195,7 @@ public class Home extends javax.swing.JFrame {
         jMenu5.add(jMenuItem10);
         jMenu5.add(jSeparator6);
 
-        jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_MASK));
+        jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_DOWN_MASK));
         jMenuItem11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Exit application.png"))); // NOI18N
         jMenuItem11.setText("Exit");
         jMenuItem11.addActionListener(new java.awt.event.ActionListener() {

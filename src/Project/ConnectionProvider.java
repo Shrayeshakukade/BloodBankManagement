@@ -15,7 +15,7 @@ public class ConnectionProvider {
         try
         {
            Class.forName("com.mysql.jdbc.Driver");
-           Connection con=DriverManager.getConnection("jdbc:mysql://db4free.net:3306/blood_bank_ms","miniprogrp","bbmsMinipro@123");
+           Connection con=DriverManager.getConnection("jdbc:mysql://db4free.net:3306/blood_bank_ms","miniprogrp","05558f48");
            return con;
         }
         catch(Exception e)
